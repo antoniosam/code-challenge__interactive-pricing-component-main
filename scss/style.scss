@@ -62,7 +62,7 @@ body {
     }
     h1 {
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
         color: var(--neutral-dark-desaturated-blue);
         margin-bottom: 11px;
         font-weight: 800;
@@ -89,7 +89,7 @@ body {
         .bill {
             color: var(--neutral-dark-desaturated-blue);
             font-weight: 800;
-            font-size: 30px;
+            font-size: 25px;
             display: inline-block;
             vertical-align: middle;
         }
@@ -104,7 +104,7 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 10px 30px;
+        padding: 0px 30px;
         p {
             display: flex;
             flex: 50%;
@@ -113,7 +113,7 @@ body {
         }
         .viewers {
             font-weight: 800;
-            font-size: 15px;
+            font-size: 13px;
             color: var(--neutral-grayish-blue);
         }
         #price-desktop {
@@ -318,7 +318,7 @@ input:checked + .toggle:before {
     cursor: pointer;
     border-radius: 50%;
     z-index: 10;
-    box-shadow: 0px 4px 17px 0px var(--main-soft-cyan);
+    box-shadow: 0px 0px 0px 0px var(--main-soft-cyan);
 }
 .slider.move::-webkit-slider-thumb {
     cursor: grabbing;
